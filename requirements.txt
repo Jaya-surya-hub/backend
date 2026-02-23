@@ -16,3 +16,4 @@ xgboost
 joblib
 shap
 sse-starlette
+aiosqlite
