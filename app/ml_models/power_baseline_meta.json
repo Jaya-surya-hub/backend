@@ -1,0 +1,15 @@
+{
+  "feature_cols": [
+    "irradiance_wm2",
+    "temp_c",
+    "humidity",
+    "wind_mps",
+    "rain_prob",
+    "inv1_ac_kw",
+    "inv1_dc_kw",
+    "inv1_eff",
+    "sin_hour",
+    "cos_hour",
+    "power_to_irr"
+  ]
+}

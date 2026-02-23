@@ -1,0 +1,60 @@
+# ========================
+# Python / Backend
+# ========================
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.mypy_cache/
+.env
+
+# ========================
+# Database
+# ========================
+backend/solar.db
+*.sqlite3
+*.db
+
+# ========================
+# ML Models / Artifacts
+# ========================
+backend/app/ml_models/*.pkl
+backend/app/ml_train/*.pkl
+
+# ========================
+# Large Datasets (optional)
+# ========================
+wiztric_real_timeseries_2024_2026.csv
+solar_week_5min.csv
+baseline_training.csv
+
+# ========================
+# Frontend
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend_from_container/
+
+# ========================
+# Redis / Docker volumes
+# ========================
+redis-data/
+pgdata/
+*.rdb
+
+# ========================
+# Editor / OS
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ========================
+# Misc
+# ========================
+*.zip
+*.tar.gz
