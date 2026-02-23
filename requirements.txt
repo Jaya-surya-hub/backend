@@ -17,3 +17,5 @@ joblib
 shap
 sse-starlette
 aiosqlite
+email-validator
+aiosqlite
